@@ -1,0 +1,54 @@
+{
+  "name": "ram",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack-dev-server --hot",
+    "test": "mocha"
+  },
+  "keywords": [
+    "mocha",
+    "chai"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "babel": "^6.5.2",
+    "babel-core": "^6.14.0",
+    "babel-loader": "^6.2.5",
+    "babel-preset-es2015": "^6.14.0",
+    "babel-preset-react": "^6.11.1",
+    "chai": "^3.5.0",
+    "jquery": "^3.1.1",
+    "mocha": "^3.1.0",
+    "mocha-loader": "^1.0.0",
+    "pui-css-buttons": "^6.0.2",
+    "pui-css-forms": "^5.3.1",
+    "pui-react-dropdowns": "^5.3.1",
+    "pui-react-lists": "^5.4.0",
+    "react": "^15.3.2",
+    "react-addons-css-transition-group": "^15.3.2",
+    "react-dom": "^15.3.2",
+    "react-redux": "^4.4.5",
+    "react-router": "^2.4.0",
+    "react-router-redux": "^4.0.6",
+    "request": "^2.74.0",
+    "should": "^10.0.0",
+    "redux": "^3.5.2",
+    "webpack": "^1.13.2",
+    "webpack-dev-server": "^1.16.1"
+  },
+  "devDependencies": {},
+  "description": "Course web-app",
+  "directories": {
+    "test": "tests"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ram95krishnan/POC.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ram95krishnan/POC/issues"
+  },
+  "homepage": "https://github.com/ram95krishnan/POC#readme"
+}
