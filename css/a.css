@@ -1,0 +1,28 @@
+.bg{
+  background-color:#eeeef0;
+  font-family: Lato;
+}
+#header{ color: #004d7b; font-family: "Lato"; font-size: 100px;
+line-height: 60px; font-weight: normal; margin-bottom: 0px; margin-top: 10px;
+text-align: center; text-shadow: 0 1px 1px #fff; }
+
+h2 { color: #004d7b; font-family: 'Lato'; font-size:  24px; font-weight: normal;
+line-height: 32px; margin: 0 0 18px; text-shadow: 1px 0 0 #fff; padding-left:50%}
+
+#Content{
+  background-color: #006688;
+}
+.content{
+  width:80%;
+  height:80%;
+  background-color: #44ee88;
+}
+
+.navbar{
+  width:20%;
+  height:80%;
+  background-color: #336688;
+}
+Toggle{
+  height: 70px;
+}
