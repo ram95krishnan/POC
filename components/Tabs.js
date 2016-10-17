@@ -2,6 +2,8 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import HTMLL from './Html';
 import CSS from './Css';
+import {bindActionCreators} from 'redux';
+import {connect} from 'react-redux';
 import JS from './Js';
 import REACT from './Reactjs';
 
@@ -23,18 +25,13 @@ class Tabs extends React.Component {
               <Tab eventKey={1} title="Introduction">Welcome to ConCourse! A platform to develop kickass coding skills !<br /> <br />
               Please look through the courses. Select the ones which you would like to learn here. The, go to 'Apply Now!' and
               fill required details. We ll get back to you soon, after setting up the groundwork for you to start learning on !</Tab>
-              <Tab eventKey={2} title="HTML">
-                          <HTMLL />
-              </Tab>
-              <Tab eventKey={3} title="CSS">
-                          <CSS />
-              </Tab>
-              <Tab eventKey={4} title="Javascript">
-                          <JS />
-              </Tab>
-              <Tab eventKey={5} title="ReactJS">
-                          <REACT />
-              </Tab>
+
+              {this.props.course.map((course,i) => (
+                <Tab key={i} eventKey={i+2} title={course.course}>
+                            {course.content}<br /><br />
+                      <input type="checkbox" onClick= { () => {console.log("t_"+i)} } id={"t_"+i} /> This sounds good, am in !
+                </Tab>
+              ))}
               </LeftTabs>
             </div>
 
@@ -52,4 +49,15 @@ class Tabs extends React.Component {
   }
 }
 
-export default Tabs;
+function mapStateToProps(state){
+     return {
+        course : state.course
+     };
+   }
+
+   function matchDispatchToProps(dispatch){
+     console.log("DISPATCH TO PROPS ");
+     return bindActionCreators({},dispatch);
+   }
+
+   export default connect(mapStateToProps,matchDispatchToProps)(Tabs);
