@@ -2,6 +2,8 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import {bindActionCreators} from 'redux';
 import {connect} from 'react-redux';
+import {action} from '../actions/actions'
+//import status from '../reducers/status'
 
 
 var Tabbs = require('pui-react-tabs').Tabs;
@@ -26,12 +28,11 @@ class Tabs extends React.Component {
               {this.props.course.map((course,i) => (
                 <Tab key={i} eventKey={i+2} title={course.course}>
                             {course.content}<br /><br />
-                      <input type="checkbox" defaultChecked={course.status} onClick= { () => {} } key={""+i} id={"t_"+i} /> This sounds good, am in !
+                      <input key={""+i} type="checkbox" defaultChecked={course.status} onClick= { () => {this.props.action(document.getElementById("t_"+i).checked,course)} } id={"t_"+i} /> This sounds good, am in !
                 </Tab>
               ))}
               </LeftTabs>
             </div>
-
         </Tab>
 
         <Tab eventKey={2} title="Apply Now!">
@@ -56,14 +57,10 @@ function mapStateToProps(state){
      };
    }
 
-   function matchDispatchToProps(dispatch){
-     console.log("Hello Entered Match");
-     return bindActionCreators({namechanged: namechanged},dispatch);
-   }
 
    function matchDispatchToProps(dispatch){
      console.log("DISPATCH HAPPENING ");
-     return bindActionCreators({},dispatch);
+     return bindActionCreators({action: action},dispatch);
    }
 //HTML: HTML,CSS: CSS, JS: JS, REACT: REACT
    export default connect(mapStateToProps,matchDispatchToProps)(Tabs);

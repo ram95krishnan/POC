@@ -10,7 +10,7 @@ export default function(){
           id: 2,
           course : "CSS",
           content : "Cascading Style Sheets (CSS) is a style sheet language used for describing the presentation of a document written in a markup language. Although most often used to set the visual style of web pages and user interfaces written in HTML and XHTML, the language can be applied to any XML document, including plain XML, SVG and XUL, and is applicable to rendering in speech, or on other media.",
-          status : true
+          status : false
       },
       {
           id: 3,

@@ -1,11 +1,12 @@
-export const html = (val) => {
-  console.log("The _______ selected is : ",param);
+export const action = (val, course) => {
+  console.log("The selected course is : ",course.course);
   return{
-      type : 'HTML',
-      payload : val
+      type : course.course,
+      id : course.id,
+      value : val
         }
-},
-
+}
+/*
 export const css = (val) => {
   console.log("The _______ selected is : ",param);
   return{
@@ -29,3 +30,4 @@ export const react = (val) => {
       payload :val
         }
 },
+*/
