@@ -1,11 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import HTMLL from './Html';
-import CSS from './Css';
 import {bindActionCreators} from 'redux';
 import {connect} from 'react-redux';
-import JS from './Js';
-import REACT from './Reactjs';
+
 
 var Tabbs = require('pui-react-tabs').Tabs;
 var Tab = require('pui-react-tabs').Tab;
@@ -21,7 +18,7 @@ class Tabs extends React.Component {
 
         <Tab eventKey={1} title="COURSES">
             <div className="Content">
-            <LeftTabs defaultActiveKey={1} tabWidth={3} paneWidth={9}>
+            <LeftTabs defaultActiveKey={1} tabWidth={4} paneWidth={12}>
               <Tab eventKey={1} title="Introduction">Welcome to ConCourse! A platform to develop kickass coding skills !<br /> <br />
               Please look through the courses. Select the ones which you would like to learn here. The, go to 'Apply Now!' and
               fill required details. We ll get back to you soon, after setting up the groundwork for you to start learning on !</Tab>
@@ -29,7 +26,7 @@ class Tabs extends React.Component {
               {this.props.course.map((course,i) => (
                 <Tab key={i} eventKey={i+2} title={course.course}>
                             {course.content}<br /><br />
-                      <input type="checkbox" onClick= { () => {console.log("t_"+i)} } id={"t_"+i} /> This sounds good, am in !
+                      <input type="checkbox" defaultChecked={course.status} onClick= { () => {} } key={""+i} id={"t_"+i} /> This sounds good, am in !
                 </Tab>
               ))}
               </LeftTabs>
@@ -52,12 +49,21 @@ class Tabs extends React.Component {
 function mapStateToProps(state){
      return {
         course : state.course
+      /*  HTML :  state.HTML,     checked={this.state.(course.course)}
+        CSS : state.CSS,
+        JS : state.JS,
+        REACT : state.REACT */
      };
    }
 
    function matchDispatchToProps(dispatch){
-     console.log("DISPATCH TO PROPS ");
-     return bindActionCreators({},dispatch);
+     console.log("Hello Entered Match");
+     return bindActionCreators({namechanged: namechanged},dispatch);
    }
 
+   function matchDispatchToProps(dispatch){
+     console.log("DISPATCH HAPPENING ");
+     return bindActionCreators({},dispatch);
+   }
+//HTML: HTML,CSS: CSS, JS: JS, REACT: REACT
    export default connect(mapStateToProps,matchDispatchToProps)(Tabs);

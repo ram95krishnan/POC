@@ -3,6 +3,19 @@ export default function (value = false, action){
     switch (action.type){
             case 'HTML' :
                             return true;
-                            }
+                            break;
+            case 'CSS'  :
+                            return true;
+                            break;
+
+            case 'JS'   :
+                            return true;
+                            break;
+
+            case 'REACT'   :
+                            return true;
+                            break;
+
+  }
     return value;
 }

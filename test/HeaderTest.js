@@ -1,4 +1,8 @@
 import {expect} from 'chai';
+import {assert} from 'chai';
+
+import Courses from '../reducers/allreducers';
+
 import Header from '../components/Header';
 import Tab from '../components/Tabs';
 import {shallow} from 'enzyme';
@@ -18,5 +22,13 @@ describe("Component Test",function(){
   });
   it("HTML Tab is getting rendered",function(){
     expect(renderDoc(<HTMLL />)).to.not.equal(undefined);
+  });
+});
+
+
+describe("Tab 1",function(){
+  let x=Courses();
+  it("Has 5 subtabs",function(){
+    assert.equal(x.length,4,"Checking no. of courses");
   });
 });
