@@ -1,10 +1,10 @@
 [
   {
-    "path": "C:\\Users\\rs8\\Desktop\\POC\\New folder\\master\\node_modules\\pui-css-tabs\\node_modules\\pui-css-bootstrap\\bootstrap.css",
+    "path": "C:\\Users\\rs8\\Desktop\\POC\\New folder\\master\\node_modules\\pui-react-toggle\\node_modules\\pui-css-bootstrap\\bootstrap.css",
     "packageName": "pui-css-bootstrap"
   },
   {
-    "path": "C:\\Users\\rs8\\Desktop\\POC\\New folder\\master\\node_modules\\pui-css-forms\\forms.css",
+    "path": "C:\\Users\\rs8\\Desktop\\POC\\New folder\\master\\node_modules\\pui-react-toggle\\node_modules\\pui-css-forms\\forms.css",
     "packageName": "pui-css-forms"
   },
   {
@@ -12,7 +12,7 @@
     "packageName": "pui-css-typography"
   },
   {
-    "path": "C:\\Users\\rs8\\Desktop\\POC\\New folder\\master\\node_modules\\pui-css-buttons\\buttons.css",
+    "path": "C:\\Users\\rs8\\Desktop\\POC\\New folder\\master\\node_modules\\pui-css-dropdowns\\node_modules\\pui-css-buttons\\buttons.css",
     "packageName": "pui-css-buttons"
   },
   {

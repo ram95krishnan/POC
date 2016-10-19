@@ -12,6 +12,24 @@ var LeftTabs = require('pui-react-tabs').LeftTabs;
 var Toggle = require('pui-react-toggle').Toggle;
 
 class Tabs extends React.Component {
+
+  call(course){
+    switch(course.course)
+    {
+            case 'HTML' :
+                    return this.props.HTML
+                    break;
+            case 'CSS' :
+                    return this.props.CSS
+                    break;
+            case 'JS' :
+                    return this.props.JS
+                    break;
+            case 'REACT' :
+                    return this.props.REACT
+                    break;
+    }
+  }
   render(){
     return(
     <div>
@@ -28,7 +46,8 @@ class Tabs extends React.Component {
               {this.props.course.map((course,i) => (
                 <Tab key={i} eventKey={i+2} title={course.course}>
                             {course.content}<br /><br />
-                      <input key={""+i} type="checkbox" defaultChecked={course.status} onClick= { () => {this.props.action(document.getElementById("t_"+i).checked,course)} } id={"t_"+i} /> This sounds good, am in !
+                      <input key={""+i} type="checkbox"
+                      defaultChecked={this.call(course)} onChange= { () => {this.props.action(document.getElementById("t_"+i).checked,course)} } id={"t_"+i} /> This sounds good, am in !
                 </Tab>
               ))}
               </LeftTabs>
@@ -49,7 +68,11 @@ class Tabs extends React.Component {
 
 function mapStateToProps(state){
      return {
-        course : state.course
+        course : state.course,
+        HTML : state.HTML,
+        CSS : state.CSS,
+        JS : state.JS,
+        REACT : state.REACT
       /*  HTML :  state.HTML,     checked={this.state.(course.course)}
         CSS : state.CSS,
         JS : state.JS,

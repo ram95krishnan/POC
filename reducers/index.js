@@ -1,11 +1,17 @@
 import {combineReducers} from 'redux';
 
-import status from './status';
-
+import HTML from './html';
+import REACT from './reactt';
+import JS from './js.js';
+import CSS from './css.js';
 import ALL from './allReducers';
 
 const allReducers = combineReducers({
-  course : ALL
+  course : ALL,
+  HTML : HTML,
+  CSS : CSS,
+  JS : JS,
+  REACT : REACT
 });
 
 export default allReducers;

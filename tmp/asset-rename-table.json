@@ -1,14 +1,11 @@
 {
   "pui-css-bootstrap": {
-    "baseAssetDir": "C:\\Users\\rs8\\Desktop\\POC\\New folder\\master\\node_modules\\pui-css-tabs\\node_modules\\pui-css-bootstrap",
+    "baseAssetDir": "C:\\Users\\rs8\\Desktop\\POC\\New folder\\master\\node_modules\\pui-react-toggle\\node_modules\\pui-css-bootstrap",
     "assetLocationTranslation": {}
   },
   "pui-css-forms": {
-    "baseAssetDir": "C:\\Users\\rs8\\Desktop\\POC\\New folder\\master\\node_modules\\pui-css-forms",
-    "assetLocationTranslation": {
-      "images/search.svg": "pui-css-forms\\search.svg",
-      "images/check.svg": "pui-css-forms\\check.svg"
-    }
+    "baseAssetDir": "C:\\Users\\rs8\\Desktop\\POC\\New folder\\master\\node_modules\\pui-react-toggle\\node_modules\\pui-css-forms",
+    "assetLocationTranslation": {}
   },
   "pui-css-typography": {
     "baseAssetDir": "C:\\Users\\rs8\\Desktop\\POC\\New folder\\master\\node_modules\\pui-css-typography",
@@ -36,7 +33,7 @@
     }
   },
   "pui-css-buttons": {
-    "baseAssetDir": "C:\\Users\\rs8\\Desktop\\POC\\New folder\\master\\node_modules\\pui-css-buttons",
+    "baseAssetDir": "C:\\Users\\rs8\\Desktop\\POC\\New folder\\master\\node_modules\\pui-css-dropdowns\\node_modules\\pui-css-buttons",
     "assetLocationTranslation": {}
   },
   "pui-css-button-group": {
