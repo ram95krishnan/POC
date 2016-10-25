@@ -1,5 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import Apply from './Apply';
 import {bindActionCreators} from 'redux';
 import {connect} from 'react-redux';
 import {action} from '../actions/actions'
@@ -9,7 +10,7 @@ import {action} from '../actions/actions'
 var Tabbs = require('pui-react-tabs').Tabs;
 var Tab = require('pui-react-tabs').Tab;
 var LeftTabs = require('pui-react-tabs').LeftTabs;
-var Toggle = require('pui-react-toggle').Toggle;
+
 
 class Tabs extends React.Component {
 
@@ -32,11 +33,11 @@ class Tabs extends React.Component {
   }
   render(){
     return(
-    <div>
+    <div id="container2">
 
       <Tabbs defaultActiveKey={1} tabWidth={7} paneWidth={9}>
 
-        <Tab eventKey={1} title="COURSES">
+        <Tab  id="aghilan" eventKey={1} title="COURSES">
             <div className="Content">
             <LeftTabs defaultActiveKey={1} tabWidth={4} paneWidth={12}>
               <Tab eventKey={1} title="Introduction">Welcome to ConCourse! A platform to develop kickass coding skills !<br /> <br />
@@ -46,7 +47,7 @@ class Tabs extends React.Component {
               {this.props.course.map((course,i) => (
                 <Tab key={i} eventKey={i+2} title={course.course}>
                             {course.content}<br /><br />
-                      <input key={""+i} type="checkbox"
+                      <input name={course.course} key={""+i} type="checkbox"
                       defaultChecked={this.call(course)} onChange= { () => {this.props.action(document.getElementById("t_"+i).checked,course)} } id={"t_"+i} /> This sounds good, am in !
                 </Tab>
               ))}
@@ -56,7 +57,9 @@ class Tabs extends React.Component {
 
         <Tab eventKey={2} title="Apply Now!">
             <div className="Content">
-              Amigo
+
+                  <Apply />
+
             </div>
         </Tab>
 

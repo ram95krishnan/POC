@@ -1,6 +1,10 @@
 {
   "name": "ram1",
   "version": "1.0.0",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/ram95krishnan/POC"
+  },
   "main": "index.js",
   "scripts": {
     "start": "webpack-dev-server --hot",
@@ -17,12 +21,16 @@
     "babel-preset-react": "^6.16.0",
     "babel-register": "^6.16.3",
     "chai": "^3.5.0",
+    "dr-frankenstyle": "^0.2.8",
     "enzyme": "^2.4.1",
     "jquery": "^3.1.1",
     "pui-css-buttons": "^6.0.2",
     "pui-css-forms": "^5.3.1",
+    "pui-react-buttons": "^7.0.0",
     "pui-react-dropdowns": "^5.3.1",
+    "pui-react-inputs": "^7.0.0",
     "pui-react-lists": "^5.4.0",
+    "pui-react-svg": "^7.0.0",
     "pui-react-tabs": "^7.0.0",
     "pui-react-toggle": "^7.0.0",
     "react": "^15.3.2",
@@ -32,13 +40,13 @@
     "react-router": "^2.4.0",
     "react-router-redux": "^4.0.6",
     "redux": "^3.5.2",
-    "dr-frankenstyle": "^0.2.8",
+    "svg-react": "^1.0.9",
     "webpack": "^1.13.2",
     "webpack-dev-server": "^1.16.1"
   },
   "devDependencies": {
     "bootstrap": "^3.3.7",
-    "typings":"^0.8.1",
+    "typings": "^0.8.1",
     "dr-frankenstyle": "^0.2.8",
     "jquery": "^3.1.1",
     "pui-css-buttons": "^6.0.2",

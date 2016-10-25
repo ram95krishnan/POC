@@ -1,5 +1,5 @@
 var config = {
-   entry: './main.js',
+   entry: './Main.js',
 
    output: {
       path:'./',
@@ -8,7 +8,7 @@ var config = {
 
    devServer: {
       inline: true,
-      port: 8080
+      port: 8087
    },
 
    module: {

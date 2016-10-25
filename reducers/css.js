@@ -5,7 +5,6 @@ export default function (value=false,action){
             case 'CSS' :
                             return action.payload
                             break;
-
   }
   console.log("--->  CSS " );
   return value;

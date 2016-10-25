@@ -1,50 +1,50 @@
 [
   {
-    "path": "C:\\Users\\rs8\\Desktop\\POC\\New folder\\master\\node_modules\\pui-react-toggle\\node_modules\\pui-css-bootstrap\\bootstrap.css",
+    "path": "/home/muthu/POC/node_modules/pui-react-toggle/node_modules/pui-css-bootstrap/bootstrap.css",
     "packageName": "pui-css-bootstrap"
   },
   {
-    "path": "C:\\Users\\rs8\\Desktop\\POC\\New folder\\master\\node_modules\\pui-react-toggle\\node_modules\\pui-css-forms\\forms.css",
+    "path": "/home/muthu/POC/node_modules/pui-react-toggle/node_modules/pui-css-forms/forms.css",
     "packageName": "pui-css-forms"
   },
   {
-    "path": "C:\\Users\\rs8\\Desktop\\POC\\New folder\\master\\node_modules\\pui-css-typography\\typography.css",
+    "path": "/home/muthu/POC/node_modules/pui-react-buttons/node_modules/pui-css-typography/typography.css",
     "packageName": "pui-css-typography"
   },
   {
-    "path": "C:\\Users\\rs8\\Desktop\\POC\\New folder\\master\\node_modules\\pui-css-dropdowns\\node_modules\\pui-css-buttons\\buttons.css",
+    "path": "/home/muthu/POC/node_modules/pui-react-buttons/node_modules/pui-css-buttons/buttons.css",
     "packageName": "pui-css-buttons"
   },
   {
-    "path": "C:\\Users\\rs8\\Desktop\\POC\\New folder\\master\\node_modules\\pui-css-button-group\\button-group.css",
+    "path": "/home/muthu/POC/node_modules/pui-css-button-group/button-group.css",
     "packageName": "pui-css-button-group"
   },
   {
-    "path": "C:\\Users\\rs8\\Desktop\\POC\\New folder\\master\\node_modules\\pui-css-links\\links.css",
+    "path": "/home/muthu/POC/node_modules/pui-css-links/links.css",
     "packageName": "pui-css-links"
   },
   {
-    "path": "C:\\Users\\rs8\\Desktop\\POC\\New folder\\master\\node_modules\\pui-css-dropdowns\\dropdowns.css",
+    "path": "/home/muthu/POC/node_modules/pui-css-dropdowns/dropdowns.css",
     "packageName": "pui-css-dropdowns"
   },
   {
-    "path": "C:\\Users\\rs8\\Desktop\\POC\\New folder\\master\\node_modules\\pui-css-lists\\lists.css",
+    "path": "/home/muthu/POC/node_modules/pui-css-lists/lists.css",
     "packageName": "pui-css-lists"
   },
   {
-    "path": "C:\\Users\\rs8\\Desktop\\POC\\New folder\\master\\node_modules\\pui-css-tabs\\tabs.css",
+    "path": "/home/muthu/POC/node_modules/pui-css-tabs/tabs.css",
     "packageName": "pui-css-tabs"
   },
   {
-    "path": "C:\\Users\\rs8\\Desktop\\POC\\New folder\\master\\node_modules\\pui-css-dividers\\dividers.css",
+    "path": "/home/muthu/POC/node_modules/pui-css-dividers/dividers.css",
     "packageName": "pui-css-dividers"
   },
   {
-    "path": "C:\\Users\\rs8\\Desktop\\POC\\New folder\\master\\node_modules\\pui-css-iconography\\iconography.css",
+    "path": "/home/muthu/POC/node_modules/pui-css-iconography/iconography.css",
     "packageName": "pui-css-iconography"
   },
   {
-    "path": "C:\\Users\\rs8\\Desktop\\POC\\New folder\\master\\node_modules\\pui-css-collapse\\collapse.css",
+    "path": "/home/muthu/POC/node_modules/pui-css-collapse/collapse.css",
     "packageName": "pui-css-collapse"
   }
 ]

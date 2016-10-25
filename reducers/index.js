@@ -4,7 +4,7 @@ import HTML from './html';
 import REACT from './reactt';
 import JS from './js.js';
 import CSS from './css.js';
-import ALL from './allReducers';
+import ALL from './allreducers';
 
 const allReducers = combineReducers({
   course : ALL,

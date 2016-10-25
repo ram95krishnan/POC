@@ -1,7 +1,10 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-
+import Switch from './Switch';
 class Header extends React.Component {
+  componentDidMount(){
+    {ReactDOM.render(<Switch />,document.getElementById('container'));}
+  }
   render(){
     return(
     <div>
