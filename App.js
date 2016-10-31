@@ -12,7 +12,6 @@ class App extends React.Component {
               <div id="container">
               </div>
               <Tabs />
-              <Admin />
         </div>
       );
    }

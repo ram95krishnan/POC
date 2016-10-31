@@ -27,6 +27,7 @@
     "pui-css-buttons": "^6.0.2",
     "pui-css-forms": "^5.3.1",
     "pui-react-buttons": "^7.0.0",
+    "pui-react-checkbox": "^7.0.0",
     "pui-react-dropdowns": "^5.3.1",
     "pui-react-inputs": "^7.0.0",
     "pui-react-lists": "^5.4.0",

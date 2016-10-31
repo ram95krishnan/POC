@@ -6,7 +6,6 @@ import {connect} from 'react-redux';
 import {action} from '../actions/actions'
 //import status from '../reducers/status'
 
-
 var Tabbs = require('pui-react-tabs').Tabs;
 var Tab = require('pui-react-tabs').Tab;
 var LeftTabs = require('pui-react-tabs').LeftTabs;
@@ -41,7 +40,7 @@ class Tabs extends React.Component {
             <div className="Content">
             <LeftTabs defaultActiveKey={1} tabWidth={4} paneWidth={12}>
               <Tab eventKey={1} title="Introduction">Welcome to ConCourse! A platform to develop kickass coding skills !<br /> <br />
-              Please look through the courses. Select the ones which you would like to learn here. The, go to 'Apply Now!' and
+              Please look through the courses. Select the ones which you would like to learn here. Then , go to 'Apply Now!' and
               fill required details. We ll get back to you soon, after setting up the groundwork for you to start learning on !</Tab>
 
               {this.props.course.map((course,i) => (
