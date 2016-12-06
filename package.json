@@ -24,6 +24,7 @@
     "dr-frankenstyle": "^0.2.8",
     "enzyme": "^2.4.1",
     "jquery": "^3.1.1",
+    "nuka-carousel": "^2.0.3",
     "pui-css-buttons": "^6.0.2",
     "pui-css-forms": "^5.3.1",
     "pui-react-buttons": "^7.0.0",
