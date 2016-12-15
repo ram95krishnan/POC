@@ -2,7 +2,12 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import Tabs from './Tabs';
 import Admin from './Admin';
+var Ribbon = require('pui-react-ribbons').Ribbon;
 var Carousel = require('nuka-carousel');
+
+const customContentStyle = {
+  color: 'black',
+};
 
 class Switch extends React.Component {
 
@@ -30,10 +35,10 @@ class Switch extends React.Component {
         <img className="carousel" src="../images/js.jpg"/>
         <img className="carousel" src="../images/react.png"/>
       </Carousel>
-          <img className="icon" src="../images/admin.png" /> ADMIN ?  <button type="button" onClick={this.call1}>Login here</button>
+          <img className="icon" src="../images/admin.png" /> <Ribbon style={customContentStyle}> ADMIN </Ribbon> <button type="button" onClick={this.call1}>Login here</button>
           <img className="icon" src="../images/user.png" />
 
-          USER ? <button type="button" onClick={this.call2}>Click here</button>to check out our Courses ! <br />
+          <Ribbon style={customContentStyle}> USER </Ribbon> <button type="button" onClick={this.call2}>Click here</button>to check out our Courses ! <br />
     </div>);
   }
   componentWillUnmount(){

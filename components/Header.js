@@ -8,8 +8,7 @@ class Header extends React.Component {
   render(){
     return(
     <div>
-        <h1 id="header"> ConCourse </h1>
-        <h2 > ... CoDiNg() = > is fun ! </h2>
+      <h1>Gather at the<br /><span data-shadow-text="ConCourse">ConCourse</span><br /> but create your own Identity...</h1>
     </div>);
   }
 }

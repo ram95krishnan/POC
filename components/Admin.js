@@ -9,7 +9,7 @@ class Admin extends React.Component {
   render(){
     return(
         <div id="marginn">
-            <h1> Login </h1>
+            <h2> Login </h2>
             <Input
               id="ip"
               label="Name"

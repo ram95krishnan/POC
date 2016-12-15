@@ -1,14 +1,14 @@
 {
   "pui-css-bootstrap": {
-    "baseAssetDir": "C:\\Users\\rs8\\Desktop\\Proof Of Concept\\REACT\\node_modules\\pui-react-toggle\\node_modules\\pui-css-bootstrap",
+    "baseAssetDir": "C:\\Users\\rs8\\Desktop\\Proof Of Concept\\POC\\node_modules\\pui-react-toggle\\node_modules\\pui-css-bootstrap",
     "assetLocationTranslation": {}
   },
   "pui-css-forms": {
-    "baseAssetDir": "C:\\Users\\rs8\\Desktop\\Proof Of Concept\\REACT\\node_modules\\pui-react-toggle\\node_modules\\pui-css-forms",
+    "baseAssetDir": "C:\\Users\\rs8\\Desktop\\Proof Of Concept\\POC\\node_modules\\pui-react-toggle\\node_modules\\pui-css-forms",
     "assetLocationTranslation": {}
   },
   "pui-css-typography": {
-    "baseAssetDir": "C:\\Users\\rs8\\Desktop\\Proof Of Concept\\REACT\\node_modules\\pui-react-buttons\\node_modules\\pui-css-typography",
+    "baseAssetDir": "C:\\Users\\rs8\\Desktop\\Proof Of Concept\\POC\\node_modules\\pui-react-buttons\\node_modules\\pui-css-typography",
     "assetLocationTranslation": {
       "fonts/sourcesanspro-light-webfont.eot": "pui-css-typography\\sourcesanspro-light-webfont.eot",
       "fonts/sourcesanspro-light-webfont.woff": "pui-css-typography\\sourcesanspro-light-webfont.woff",
@@ -28,41 +28,45 @@
     }
   },
   "pui-css-buttons": {
-    "baseAssetDir": "C:\\Users\\rs8\\Desktop\\Proof Of Concept\\REACT\\node_modules\\pui-react-buttons\\node_modules\\pui-css-buttons",
+    "baseAssetDir": "C:\\Users\\rs8\\Desktop\\Proof Of Concept\\POC\\node_modules\\pui-react-buttons\\node_modules\\pui-css-buttons",
     "assetLocationTranslation": {}
   },
   "pui-css-button-group": {
-    "baseAssetDir": "C:\\Users\\rs8\\Desktop\\Proof Of Concept\\REACT\\node_modules\\pui-css-button-group",
+    "baseAssetDir": "C:\\Users\\rs8\\Desktop\\Proof Of Concept\\POC\\node_modules\\pui-css-button-group",
     "assetLocationTranslation": {}
   },
   "pui-css-links": {
-    "baseAssetDir": "C:\\Users\\rs8\\Desktop\\Proof Of Concept\\REACT\\node_modules\\pui-css-links",
+    "baseAssetDir": "C:\\Users\\rs8\\Desktop\\Proof Of Concept\\POC\\node_modules\\pui-css-links",
     "assetLocationTranslation": {}
   },
   "pui-css-dropdowns": {
-    "baseAssetDir": "C:\\Users\\rs8\\Desktop\\Proof Of Concept\\REACT\\node_modules\\pui-css-dropdowns",
+    "baseAssetDir": "C:\\Users\\rs8\\Desktop\\Proof Of Concept\\POC\\node_modules\\pui-css-dropdowns",
     "assetLocationTranslation": {}
   },
   "pui-css-lists": {
-    "baseAssetDir": "C:\\Users\\rs8\\Desktop\\Proof Of Concept\\REACT\\node_modules\\pui-css-lists",
+    "baseAssetDir": "C:\\Users\\rs8\\Desktop\\Proof Of Concept\\POC\\node_modules\\pui-css-lists",
     "assetLocationTranslation": {
       "images/check.svg": "pui-css-lists\\check.svg"
     }
   },
+  "pui-css-ribbons": {
+    "baseAssetDir": "C:\\Users\\rs8\\Desktop\\Proof Of Concept\\POC\\node_modules\\pui-css-ribbons",
+    "assetLocationTranslation": {}
+  },
   "pui-css-tabs": {
-    "baseAssetDir": "C:\\Users\\rs8\\Desktop\\Proof Of Concept\\REACT\\node_modules\\pui-css-tabs",
+    "baseAssetDir": "C:\\Users\\rs8\\Desktop\\Proof Of Concept\\POC\\node_modules\\pui-css-tabs",
     "assetLocationTranslation": {}
   },
   "pui-css-dividers": {
-    "baseAssetDir": "C:\\Users\\rs8\\Desktop\\Proof Of Concept\\REACT\\node_modules\\pui-css-dividers",
+    "baseAssetDir": "C:\\Users\\rs8\\Desktop\\Proof Of Concept\\POC\\node_modules\\pui-css-dividers",
     "assetLocationTranslation": {}
   },
   "pui-css-iconography": {
-    "baseAssetDir": "C:\\Users\\rs8\\Desktop\\Proof Of Concept\\REACT\\node_modules\\pui-css-iconography",
+    "baseAssetDir": "C:\\Users\\rs8\\Desktop\\Proof Of Concept\\POC\\node_modules\\pui-css-iconography",
     "assetLocationTranslation": {}
   },
   "pui-css-collapse": {
-    "baseAssetDir": "C:\\Users\\rs8\\Desktop\\Proof Of Concept\\REACT\\node_modules\\pui-css-collapse",
+    "baseAssetDir": "C:\\Users\\rs8\\Desktop\\Proof Of Concept\\POC\\node_modules\\pui-css-collapse",
     "assetLocationTranslation": {}
   }
 }

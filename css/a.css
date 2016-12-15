@@ -1,12 +1,42 @@
 .bg{
   font-family: Lato;
+  background: #282828;
+  color: #AAAAAA;
 }
-#header{ color: #004d7b; font-family: "Lato"; font-size: 100px;
-line-height: 60px; font-weight: normal; margin-bottom: 0px; margin-top: 10px;
-text-align: center; text-shadow: 0 1px 1px #fff; }
 
-h2 { color: #004d7b; font-family: 'Lato'; font-size:  24px; font-weight: normal;
-line-height: 32px; margin: 0 0 18px; text-shadow: 1px 0 0 #fff; padding-left:50%}
+h1 {
+    font: 600 1.5em/1 'Lato', sans-serif;
+    color: #888888;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: .5em;
+    top: 25%;
+    width: 100%;
+}
+span, span:after {
+    font-weight: 900;
+    color: #888888;
+    white-space: nowrap;
+    display: inline-block;
+    position: relative;
+    letter-spacing: .1em;
+}
+
+span {
+    font-size: 4em;
+    z-index: 100;
+    text-shadow: .04em .04em 0 #9cb8b3;
+}
+
+span:after {
+    content: attr(data-shadow-text);
+    color: #AAAAAA;
+    text-shadow: none;
+    position: absolute;
+    left: .0875em;
+    z-index: -1;
+    -webkit-mask-image: url(http://f.cl.ly/items/1t1C0W3y040g1J172r3h/mask.png);
+}
 
 #ip{
   width:180px;
