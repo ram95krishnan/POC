@@ -38,7 +38,7 @@ class Switch extends React.Component {
           <img className="icon" src="../images/admin.png" /> <Ribbon style={customContentStyle}> ADMIN </Ribbon> <button type="button" onClick={this.call1}>Login here</button>
           <img className="icon" src="../images/user.png" />
 
-          <Ribbon style={customContentStyle}> USER </Ribbon> <button type="button" onClick={this.call2}>Click here</button>to check out our Courses ! <br />
+          <Ribbon style={customContentStyle}> USER </Ribbon> <button type="button" onClick={this.call2}>Click here</button>to check out our Courses ! ... <a href="http://localhost:9001"> <Ribbon style={customContentStyle}> Try DEMO here </Ribbon> </a> <br />
     </div>);
   }
   componentWillUnmount(){
